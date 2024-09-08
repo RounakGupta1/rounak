@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Hotel</title>
+    <link rel="stylesheet" href="jpt2.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Luxury Hotel</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#rooms">Rooms</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Luxury Hotel</h2>
+            <p>Your comfort is our priority.</p>
+            <a href="#contact" class="btn">Book Now</a>
+        </div>
+    </section>
+
+    <section id="rooms">
+        <div class="container">
+            <h2>Our Rooms</h2>
+            <div class="room">
+                <img src="room1.jpg" alt="Deluxe Room">
+                <h3>Deluxe Room</h3>
+                <p>Experience luxury with our Deluxe Room, equipped with all the modern amenities you need.</p>
+            </div>
+            <div class="room">
+                <img src="room2.jpg" alt="Suite Room">
+                <h3>Suite Room</h3>
+                <p>Our Suite Room offers an exquisite experience with a spacious layout and premium services.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <ul>
+                <li>24/7 Room Service</li>
+                <li>Spa and Wellness Center</li>
+                <li>Free Wi-Fi</li>
+                <li>Airport Shuttle</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Luxury Hotel. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
